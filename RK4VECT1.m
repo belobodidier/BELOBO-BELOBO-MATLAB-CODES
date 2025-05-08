@@ -7,13 +7,11 @@ clear variables ;
 close all ;
 clc ;
 tic 
-% profile on
-global N_0 R Q M_ Omega rho K J_1 chi beta Gamma gamma_ dt Mmax f_p0 omega_0
-global f_p sigma delta sigdelta M epsi_ q E Fn c_0 a_0 fn N_00 phi0_p alph 
+
 set(0,'defaultaxesfontsize',45, 'defaultaxesfontWeight','bold', 'defaultaxesLinewidth', 1);
 format long g
 % constants 
-N_00 = 100 ; alph = 1000 ; 
+
 hbar = 1.054e-34; %in Joule seconds, reduced Planck's constant
 M_ = 1.774e-25 ; % peptide unit average mass in kg
 Omega = 5.5e12 ; % in s^-1, natural angular frequency of slow phonon in alpha-helix
